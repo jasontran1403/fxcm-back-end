@@ -1,0 +1,50 @@
+{
+  "groups": [
+    {
+      "name": "totp",
+      "type": "com.something.totp.TotpProperties",
+      "sourceType": "com.something.totp.TotpProperties"
+    },
+    {
+      "name": "totp.code",
+      "type": "com.something.totp.TotpProperties$Code",
+      "sourceType": "com.something.totp.TotpProperties",
+      "sourceMethod": "public com.something.totp.TotpProperties.Code getCode() "
+    },
+    {
+      "name": "totp.secret",
+      "type": "com.something.totp.TotpProperties$Secret",
+      "sourceType": "com.something.totp.TotpProperties",
+      "sourceMethod": "public com.something.totp.TotpProperties.Secret getSecret() "
+    },
+    {
+      "name": "totp.time",
+      "type": "com.something.totp.TotpProperties$Time",
+      "sourceType": "com.something.totp.TotpProperties",
+      "sourceMethod": "public com.something.totp.TotpProperties.Time getTime() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "totp.code.length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.something.totp.TotpProperties$Code"
+    },
+    {
+      "name": "totp.secret.length",
+      "type": "java.lang.Integer",
+      "sourceType": "com.something.totp.TotpProperties$Secret"
+    },
+    {
+      "name": "totp.time.discrepancy",
+      "type": "java.lang.Integer",
+      "sourceType": "com.something.totp.TotpProperties$Time"
+    },
+    {
+      "name": "totp.time.period",
+      "type": "java.lang.Integer",
+      "sourceType": "com.something.totp.TotpProperties$Time"
+    }
+  ],
+  "hints": []
+}
